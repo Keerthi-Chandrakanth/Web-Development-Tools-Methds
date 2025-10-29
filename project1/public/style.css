@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+  max-width: 700px;
+  padding: 20px 30px;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  color: #2e3a59;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(46, 58, 89, 0.1);
+  border: 1px solid #cbd5e1;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #222;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+input[type='text'] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+p.error {
+  color: red;
+  font-weight: bold;
+}
+
+p.success {
+  color: green;
+  font-weight: bold;
+}
+
+p.info {
+  color: blue;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  font-family: monospace;
+}
+
+li.correct {
+  color: green;
+  font-weight: bold;
+}
+
+li.incorrect {
+  color: #d9534f;
+}
+
+li.invalid {
+  color: gray;
+  font-style: italic;
+}
+
+.logout {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logout a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.logout a:hover {
+  text-decoration: underline;
+}
+
+.word-list {
+  
+}
+
+.word-list__item {
+  display: inline-block;
+  margin: 4px;
+  margin-right: 4px;
+  padding: 4px 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul.guess-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.guess-list li {
+  display: inline-block;
+  margin-right: 10px; 
+  padding: 6px 10px;
+  background-color: #e7f0ff;
+  border-radius: 6px;
+  font-family: monospace;
+  border: 1px solid #b3d1ff;
+  color: #1a4d9c;
+}
+
+ul.guess-list li:hover {
+  background-color: #c7dfff;
+  cursor: default;
+}
