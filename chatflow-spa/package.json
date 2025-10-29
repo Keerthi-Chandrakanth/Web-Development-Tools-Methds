@@ -1,0 +1,25 @@
+{
+  "name": "chatflow-spa",
+  "version": "1.0.0",
+  "description": "A real-time chat application built as a Single Page Application (SPA) using modern JavaScript, Express.js, and RESTful architecture",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.100.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
