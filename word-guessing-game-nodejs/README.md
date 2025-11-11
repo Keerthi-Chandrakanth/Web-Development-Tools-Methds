@@ -1,4 +1,6 @@
-# INFO6250 Project1 - Server-side Dynamic Site
+# INFO6250 Project1 - Server-side Dynamic Site 
+
+word-guessing-game-nodejs
 
 **Due Wed Jun 18, 11:59pm **
 
