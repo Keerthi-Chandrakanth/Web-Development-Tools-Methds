@@ -14,7 +14,7 @@ To run this project locally (simple option):
 1. Open a terminal and change to the project folder:
 
 ```bash
-cd /Users/keerthichandrakanth/Desktop/Git/Web-Development-Tools-Methds/project1
+cd project1
 ```
 
 2. Install dependencies (run once):
